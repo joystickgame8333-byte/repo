@@ -1,0 +1,12 @@
+Origin: Omar Al-Asam Repo
+Label: Omar Al-Asam Repo
+Suite: stable
+Codename: omar
+Architectures: iphoneos-arm64
+Components: main
+Description: Tweaks by Omar Al-Asam
+Date: Sun, 13 Sep 2026 08:20:52 +0000
+SHA256:
+ 6473809d256ac0f9a58226d8e95d273cc86b9d62f87ba085dcdf0c78ca462465 1657 Packages
+ 35b2c1bcfaa716867676f6ee4bcaa86a69c109e1b29fa423ac0fef41c192cb41 1021 Packages.gz
+ eb1039520bcd3c673ccf058722028f69c51ac1e1ae23345162a97095ff11521e 1045 Packages.bz2

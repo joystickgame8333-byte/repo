@@ -1,0 +1,154 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://joystickgame8333-byte.github.io/repo/SileoBanner.png",
+  "tintColor": "#087F95",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "HaloBar"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Your status. Your style.**\n\nBattery, Wi-Fi and cellular signal come together in one compact ring. Shape the details with a live preview, then carry your chosen color across the status bar and clock.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://joystickgame8333-byte.github.io/repo/FeaturePreview.png",
+          "width": 300,
+          "height": 200,
+          "cornerRadius": 16,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Illustrative design preview",
+          "fontSize": 12,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Made to feel at home\n- Battery number set into the top of the ring.\n- Separate size and position controls for Wi-Fi and cellular labels.\n- Matching colors for the clock, number and signal dots.\n- A subtle green charging ring and optional connection pulse.\n- Arabic and English settings, with automatic language selection.\n- Live preview, instant saving and a respring button.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "0.6.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Omar Al-Asam"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Languages",
+          "text": "English · العربية"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Target",
+          "text": "iOS 16 · Rootless jailbreak"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Device setup used during development:** iPhone 14 Pro, iOS 16.4.1, Dopamine. Other device and jailbreak combinations have not been verified.\n\nAfter installation, respring and open **Settings → HaloBar**. This update keeps existing Omar Orbit preferences.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Developed by Omar Al-Asam ❤️",
+          "alignment": 1,
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "العربية",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "HaloBar — هالو بار",
+          "alignment": 2
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**شريطك، على ذوقك.**\n\nالبطارية والواي فاي وإشارة الشبكة داخل مؤشر دائري صغير. اضبط تفاصيله بمعاينة مباشرة، ووحّد لون الشريط والساعة.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://joystickgame8333-byte.github.io/repo/FeaturePreview.png",
+          "width": 300,
+          "height": 200,
+          "cornerRadius": 16,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "معاينة توضيحية للتصميم",
+          "fontSize": 12,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### تفاصيل تناسبك\n- رقم البطارية داخل فتحة أعلى القوس.\n- ضبط مستقل لحجم الواي فاي و5G ومكانهما.\n- لون موحّد للساعة والرقم ونقاط الإشارة.\n- قوس أخضر هادئ أثناء الشحن ونبضة اختيارية.\n- إعدادات عربية وإنجليزية واختيار تلقائي للغة.\n- معاينة مباشرة وحفظ تلقائي وزر رسبرنق.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "الإصدار",
+          "text": "0.6.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "المطوّر",
+          "text": "عمر الاعسم"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "اللغات",
+          "text": "العربية · English"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "النظام المستهدف",
+          "text": "iOS 16 · جلبريك Rootless"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**الجهاز المستخدم أثناء التطوير:** iPhone 14 Pro، إصدار iOS 16.4.1، وجلبريك Dopamine. لم يتم التحقق من بقية الأجهزة وتركيبات الجلبريك.\n\nبعد التثبيت، سوِّ رسبرنق وافتح **الإعدادات ← HaloBar**. التحديث يحتفظ بضبط Omar Orbit السابق.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "تم تطويرها من عمر الاعسم ❤️",
+          "alignment": 1,
+          "fontSize": 14
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.6.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed local package metadata: bundled Sileo header artwork and structured feature lists.\n- Full Arabic and English settings with an in-app language selector.\n- Branded settings header and icon.\n- Developer credit in every settings section.\n- Prepared Sileo artwork and package information.\n\nThe status indicator geometry and charging behavior are unchanged from 0.5.0.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

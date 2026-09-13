@@ -1,0 +1,35 @@
+Package: com.omar.orbit
+Name: HaloBar
+Version: 0.6.1
+Architecture: iphoneos-arm64
+Description: A refined circular status bar with live customization.
+ ## Make it yours
+ - Battery, Wi-Fi and signal dots in one compact ring.
+ - Separate controls for Wi-Fi and 5G size and position.
+ - Matching colors for the indicator and clock.
+ - A subtle green charging ring with an optional pulse.
+ - Live preview and automatic saving.
+ - Arabic and English settings.
+ ## Compatibility
+ - Designed for iOS 16 rootless jailbreaks.
+ - Development setup: iPhone 14 Pro, iOS 16.4.1, Dopamine.
+ ## Getting started
+ - Install, respring, then open Settings > HaloBar.
+ ## على ذوقك
+ - البطارية والواي فاي ونقاط الإشارة داخل مؤشر دائري.
+ - ضبط مستقل لحجم الواي فاي و5G ومكانهما.
+ - ألوان متناسقة مع الساعة ومعاينة مباشرة وحفظ تلقائي.
+ - قوس أخضر أثناء الشحن وإعدادات بالعربية والإنجليزية.
+ ### تم تطويرها من عمر الاعسم ❤️
+Maintainer: Omar Al-Asam
+Author: Omar Al-Asam
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate, ldid, preferenceloader
+Icon: https://joystickgame8333-byte.github.io/repo/Icon.png
+Header: https://joystickgame8333-byte.github.io/repo/SileoBanner.png
+SileoDepiction: https://joystickgame8333-byte.github.io/repo/depiction.json
+Filename: com.omar.orbit_0.6.1_iphoneos-arm64.deb
+Size: 207718
+MD5sum: 1ad49684e5a690188ad98296d79656a0
+SHA256: 64b6b3fe81e7929b2c539d5485e5f55495f0bbd9cc344193927717f3ec977788
+
